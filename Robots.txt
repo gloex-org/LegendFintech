@@ -1,0 +1,19 @@
+# Robots.txt for LegendFintech.com
+# Managed by EliJul Domain Brokerage
+
+User-agent: *
+Allow: /
+
+# Protect internal brokerage files and temp directories
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /staging/
+Disallow: /tmp/
+Disallow: /internal-docs/
+
+# Search Engine Crawl-Delay to prevent aggressive indexing bots
+Crawl-delay: 10
+
+# Site Structure References
+Host: https://legendfintech.com
+Sitemap: https://legendfintech.com/sitemap.xml
